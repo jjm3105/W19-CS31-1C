@@ -7,14 +7,14 @@ within at most 1 day of each other
 
 
 Sample Output:
-Enter the first time: 1435
+Enter the first time: 1436
 Enter the second time: 2322
-8 hours and 47 minutes.
+8 hours and 46 minutes.
 
 Sample Output:
 Enter the first time: 2322
-Enter the second time: 1435
-15 hours and 13 minutes.
+Enter the second time: 1436
+15 hours and 14 minutes.
 
 
 Hint:

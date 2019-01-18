@@ -6,8 +6,8 @@ the 2nd terms are 1 and 1:
 	1 1 2 3 5 8 13 21 34 ...
 
 Given an integer N, output the Nth Fibonacci number.
-Do not use recursion (if you don't know what this is, it's okay - don't worry
-about this requirement.).
+Do NOT use recursion (if you don't know what this is, don't worry about this
+requirement - this is not covered in this class, but makes the problem easier).
 
 
 Sample Output:
