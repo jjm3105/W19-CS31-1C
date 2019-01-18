@@ -3,7 +3,6 @@
 Given a number N, output all the multiples of 3 up to and including N.
 
 
-
 Sample Output:
 Give a number N: 16
 3

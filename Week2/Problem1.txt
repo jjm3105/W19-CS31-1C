@@ -1,7 +1,7 @@
 // Problem 3 from Worksheet 1
 
-Write a program that takes in two numbers and a command (Add, Subtract, Multiply, Divide) and then performs that calculation.
-
+Write a program that takes in two numbers and a command (Add, Subtract,
+Multiply, Divide) and then performs that calculation.
 
 
 Sample Output:

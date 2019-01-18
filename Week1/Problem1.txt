@@ -1,7 +1,7 @@
 // Problem 3 from Worksheet 1
 
-Write a program that takes in three numbers to average and outputs the average of those numbers. Please assume three numbers will always be entered.
-
+Write a program that takes in three numbers to average and outputs the average
+of those numbers. Please assume three numbers will always be entered.
 
 
 Sample Output:

@@ -1,7 +1,10 @@
 // To help with Project2
 
-You work at a world famous diner. One day, a hungry-looking CS student enters and asks for dessert. The diner, Howard's Cold Comforts, offers two types for desserts, and 3 toppings for each type.
-Given the menu described below, prompt the user for an order, and output the cost of the order.
+You work at a world famous diner. One day, a hungry-looking CS student enters
+and asks for dessert. The diner, Howard's Cold Comforts, offers two types for
+desserts, and 3 toppings for each type.
+Given the menu described below, prompt the user for an order, and output the
+cost of the order.
 
 Ice Cream:
 	Syrup:
@@ -17,7 +20,6 @@ Gelato:
 		5.99
 	Grapes:
 		12.99
-
 
 
 Sample Output:

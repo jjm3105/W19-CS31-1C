@@ -1,10 +1,13 @@
 // Challenge Problem with loops
 
-The Fibonacci sequence is a famous sequence of numbers, where each term in the sequence is the sum of the two previous terms. For our purposes, the 1st and the 2nd terms are 1 and 1:
+The Fibonacci sequence is a famous sequence of numbers, where each term in the
+sequence is the sum of the two previous terms. For our purposes, the 1st and
+the 2nd terms are 1 and 1:
 	1 1 2 3 5 8 13 21 34 ...
 
-Given an integer N, output the Nth Fibonacci number. Do not use recursion (if you don't know what this is, it's okay - don't worry about this requirement.).
-
+Given an integer N, output the Nth Fibonacci number.
+Do not use recursion (if you don't know what this is, it's okay - don't worry
+about this requirement.).
 
 
 Sample Output:
