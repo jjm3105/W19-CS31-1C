@@ -1,0 +1,9 @@
+#3 from Worksheet 1
+
+Write a program that takes in two numbers and a command (Add, Subtract, Multiply, Divide) and then performs that calculation.
+
+Sample output:
+Enter your first number: 3
+Enter your second number: 7
+Enter your command: Multiply
+Result: 21

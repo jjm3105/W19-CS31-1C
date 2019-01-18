@@ -1,0 +1,25 @@
+You work at a world famous diner. One day, a hungry-looking CS student enters and asks for dessert. The diner, Howard's Cold Comforts, offers two types for desserts, and 3 toppings for each type.
+Given the menu described below, prompt the user for an order, and output the cost of the order.
+
+Ice Cream:
+	Syrup:
+		4.95
+	Oreos:
+		2.18
+	Grapes:
+		10.25
+Gelato:
+	Syrup:
+		3.99
+	Oreos:
+		5.99
+	Grapes:
+		12.99
+
+
+
+Example:
+
+Ice Cream or Gelato? Oreos
+Syrup, Oreos, or Grapes? Ice Cream
+Thank you for coming to Howard's Cold Comforts. That will be $2.18.
