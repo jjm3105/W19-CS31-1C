@@ -1,0 +1,14 @@
+// To help with Loops
+
+Given a number N, output all the multiples of 3 up to and including N.
+
+
+
+Sample Output:
+Give a number N: 16
+3
+6
+9
+12
+15
+Finish.

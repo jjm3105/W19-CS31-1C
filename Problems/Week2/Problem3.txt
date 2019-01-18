@@ -1,0 +1,26 @@
+// Challenge problem
+
+Given two numbers, representing time in military time, find the difference in time in hours and minutes. Assume the second number given is always later than the first number. The two numbers are not necessarily on the same day, but are within at most 1 day of each other
+
+
+
+Sample Output:
+Enter the first time: 1435
+Enter the second time: 2322
+8 hours and 47 minutes.
+
+Sample Output:
+Enter the first time: 2322
+Enter the second time: 1435
+15 hours and 13 minutes.
+
+
+
+Hint:
+Use of the / operator and the % operator is critical.
+
+
+
+
+Challenge:
+Try this problem without using if-statements.

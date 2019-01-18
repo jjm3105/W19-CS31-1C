@@ -1,8 +1,8 @@
 # W19-CS31-1C
 
-This is a repo with additional materials for Comsci 31 under Professor Stahl, for Discussion 1C with Abdullah-Al-Zubaer Imran.  
-It will be updated weekly with new materials for discussion.
-
+This is a repo with materials for Discussion 1C with Abdullah-Al-Zubaer Imran, for Comsci 31 under Professor Stahl.  
+This will be updated weekly with new materials for discussion.
+  
 ## Tips
 
 For Windows machines, to always display extensions such as .docx and .cpp, follow these steps:

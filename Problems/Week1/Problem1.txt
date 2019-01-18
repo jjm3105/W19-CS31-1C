@@ -1,0 +1,11 @@
+// Problem 3 from Worksheet 1
+
+Write a program that takes in three numbers to average and outputs the average of those numbers. Please assume three numbers will always be entered.
+
+
+
+Sample Output:
+Number: 4.0
+Number: 2.0
+Number: 8.0
+The average is 4.66667!
