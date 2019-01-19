@@ -1,6 +1,6 @@
 # W19-CS31-1C
 
-This is a repo with materials for Discussion 1C with TA Abdullah-Al-Zubaer Imran and LA Jonathan Myong, for CS 31 under Professor Stahl.
+This is a repo with materials for Discussion 1C with TA Abdullah-Al-Zubaer Imran and LA Jonathan Myong, for CS 31 under Professor Stahl.  
 This will be updated every week with new materials for discussion.
 
 ## Tips for Windows
