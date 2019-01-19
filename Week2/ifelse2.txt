@@ -25,6 +25,10 @@ Gelato:
 
 Sample Output:
 
-Ice Cream or Gelato? Oreos
-Syrup, Oreos, or Grapes? Ice Cream
+Ice Cream or Gelato? Ice Cream
+Syrup, Oreos, or Grapes? Oreos
 Thank you for coming to Howard's Cold Comforts. That will be $2.18.
+
+Ice Cream or Gelato? Oreos
+Syrup, Oreos, or Grapes? Pineapples
+That item is not on the menu!

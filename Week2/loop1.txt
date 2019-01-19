@@ -1,6 +1,6 @@
 // To help with Loops
 
-Given a number N, output all the multiples of 3 up to and including N.
+Given a number N, output all the positive multiples of 3 up to and including N.
 
 
 Sample Output:
