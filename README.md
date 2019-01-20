@@ -3,7 +3,13 @@
 This is a repo with materials for Discussion 1C with TA Abdullah-Al-Zubaer Imran and LA Jonathan Myong, for CS 31 under Professor Stahl.  
 This will be updated every week with new materials for discussion.
 
-## Tips for Windows
+## Contact Information
+
+If you have any questions, please contact us at:  
+TA: aimran@cs.ucla.edu  
+LA: jmyong@ucla.edu
+
+## Tips
 
 For Windows machines, to always display extensions such as .docx and .cpp, follow these steps:
 1. Open File Explorer.
