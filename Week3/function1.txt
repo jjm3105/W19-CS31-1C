@@ -1,0 +1,12 @@
+// function
+
+Write a function that takes as input 3 integers, and returns the value of the
+largest integer.
+
+You cannot use the max() function.
+
+
+For example,
+largest(3, 7, 3) should return 7
+largest(5, 9, 13) should return 13
+largest(8, 4, 8) should return 8

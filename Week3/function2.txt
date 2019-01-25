@@ -1,0 +1,11 @@
+// Worksheet 2, number 2
+
+Write a function that returns whether two numbers are a palindrome number
+pair. A palindrome number pair is a pair of two numbers where the first number
+is the same as the second number read backwards, and vice versa.
+
+
+For example
+intPalindrome(62, 26) should return true
+intPalindrome(154, 451) should return true
+intPalindrome(25, 56) should return false

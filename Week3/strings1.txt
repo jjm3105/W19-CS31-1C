@@ -1,0 +1,16 @@
+// Strings
+
+Howie the 6 year old is playing with a calculator. As his first grade teacher
+failed to teach him the importance of parentheses, Howie simply pushes the
+parentheses buttons whenever he likes.
+
+As Howie's older sibling, it is your job to "correct" what Howie types into
+his calculator. Given a string representing an invalid input, such as
+	"(3+(6)-(2*7)"
+Output the number of additional closing parentheses needed to make the input a
+valid input.
+
+
+Sample Output:
+Input: (3+((6)-(2*7)
+Output: ))
