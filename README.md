@@ -8,6 +8,7 @@ This will be updated every week with new materials for discussion.
 
 ### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w1.pdf">Week1 Discussion</a>
 ### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w2.pdf">Week2 Discussion</a>
+### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w3.pdf">Week3 Discussion</a>
 
 
 ## Tips for Windows
