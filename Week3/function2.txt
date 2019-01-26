@@ -6,6 +6,6 @@ is the same as the second number read backwards, and vice versa.
 
 
 For example
-intPalindrome(62, 26) should return true
-intPalindrome(154, 451) should return true
-intPalindrome(25, 56) should return false
+Palindrome(62, 26) should return true
+Palindrome(154, 451) should return true
+Palindrome(25, 56) should return false

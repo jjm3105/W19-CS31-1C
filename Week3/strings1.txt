@@ -10,6 +10,8 @@ his calculator. Given a string representing an invalid input, such as
 Output the number of additional closing parentheses needed to make the input a
 valid input.
 
+You can assume there will always be more open '(' than closing ')'.
+
 
 Sample Output:
 Input: (3+((6)-(2*7)
