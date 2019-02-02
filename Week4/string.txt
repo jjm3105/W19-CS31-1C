@@ -1,0 +1,39 @@
+
+Let's say we represent a train as a string.
+	
+Each car in the train is composed of 4 characters
+	The first character represents the color
+		The character can be any letter
+	The next two characters represent the number of passengers in the car
+	The last character represent what the car contains
+		P: Passengers
+		C: Cargo
+A train is a sequence of 1 or more cars, separated by 1 or more dashes.
+	No dash precedes the first car, or follows the last car.
+
+
+For example:
+G37C--B15P
+This represents a green car full of 37 containers of cargo, followed by a blue car with 15 passengers.
+
+
+Write the following functions:
+
+bool syntax(string train)
+	Returns whether the given input is a proper train
+
+void tally(string train, string color, int& seats)
+	Given a valid train, changes the parameter seats to the total number of 
+	passengers in the train in a car of the given color.
+
+
+Sample Code:
+string train = "G37C-B15P----Y39P-B18C---B23P";
+string color = "B";
+int seats;
+
+if(syntax(train))
+    tally(train, color, seats);
+
+cout << seats << endl;
+	→ returns 38

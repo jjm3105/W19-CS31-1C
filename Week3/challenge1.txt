@@ -1,0 +1,23 @@
+// Challenge problem
+
+Let's say we can describe numbers using it's "look and say" description, where
+we "look" at each digit of a number and "say" how many there are.
+
+For example, the number 11539 would be described as:
+	"21151319"
+as there are "two 1's", "one 5", "one 3", and "one 9", in that order.
+
+Write a function that takes as input the "look and say" description of a
+number as a string, and output the number the description is about as a string.
+
+You can assume that the actual number will have no more than 9 of the same
+digits in a row.
+
+
+Sample Output:
+lookAndSay(311322) would output 111322
+
+
+Challenge:
+Write a function that does the same thing, but whose input and output are both
+of the type integer, not string.

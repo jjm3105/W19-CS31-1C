@@ -1,0 +1,21 @@
+
+Write a function that takes in a string and translates the string according to
+the following rule:
+
+Every letter in the string earlier in the alphabet than 'm' becomes a '0',
+and every character after and including 'm' in the alphabet becomes a '1',
+Any character in the string that is not a letter is unchaged.
+
+If there is an even number of 1's, return true. Otherwise, return 0.
+
+
+Function header:
+bool translate(string& str);
+
+
+Sample Code:
+string s = "CS is the best"; 
+cout << translate(s) << endl;
+	→ returns true
+cout << s << endl;
+	→ returns "01 01 100 0011"

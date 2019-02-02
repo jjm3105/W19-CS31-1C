@@ -9,9 +9,10 @@ This will be updated every week with new materials for discussion.
 ### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w1.pdf">Week1 Discussion</a>
 ### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w2.pdf">Week2 Discussion</a>
 ### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w3.pdf">Week3 Discussion</a>
+### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w4.pdf">Week4 Discussion</a>
 
 
-## Tips for Windows
+## Tips
 
 For Windows machines, to always display extensions such as .docx and .cpp, follow these steps:
 1. Open File Explorer.
@@ -19,3 +20,10 @@ For Windows machines, to always display extensions such as .docx and .cpp, follo
 3. At the top of the dialogue box, find and click the "View" tab.
 4. **Uncheck** the item "Hide extensions for known file types".
 5. Click the "OK" button.
+
+
+## Contact Information
+
+If you have any questions, please contact us at:  
+TA: aimran@cs.ucla.edu  
+LA: jmyong@ucla.edu
