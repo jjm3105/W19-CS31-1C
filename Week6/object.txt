@@ -1,0 +1,46 @@
+
+Let us say a Nation has the following attributes:
+	Has a Nation capital
+	Has a population size
+
+Each Nation can do the following things:
+	Tell us what its capital is
+	Tell us what its population is
+	Increase its population by 1
+
+As each nation is independent, only each nation can change its own attributes.
+
+
+
+Write a function that takes in an array of Nations, an integer representing 
+the relevant size of the array, and an additional Nation named Cmp.
+
+When called, the function should take all the Nations with a population less 
+than Cmp and move them towards the left side of the array, so that within 
+size, all Nations with a population less than Cmp will be to the left of all 
+the Nations with population not less than Cmp.
+
+The function should also return the number of Nations with a population less 
+than that of Cmp.
+
+The order between the Nations with populations less than Cmp does not matter, 
+nor does the order between Nations with populations not less than Cmp.
+
+
+
+
+Function header:
+int pivot(Nation array[], int size, Nation pole);
+
+
+
+
+Example:
+Nation 	France(67, "Paris"), 			Italy(60, "Rome"),
+		USA(325, "Washington D.C."), 	Japan(128, "Tokyo"),
+		Thailand(69, "Bangkok"), 		Brazil(209, "Brasilia");
+Nation States[5] = { France, Italy, USA, Thailand, Brazil };
+pivot(States, 5, Japan)
+
+	→ returns 3
+// States becomes { France, Italy, Thailand, USA, Brazil };

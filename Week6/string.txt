@@ -1,0 +1,27 @@
+
+Write a function that takes in an array of strings, an integer representing 
+the relevant size of the array, and an additional string named pole. 
+
+When called, the function should take all strings "less than" the pole and 
+move them towards the left side of the array, so that within size, all strings 
+"less than" pole will be to the left of all strings not "less than" pole.
+
+The function should also return the number of strings "less than" the pole.
+
+The order between the strings "less than" the pole does not matter, nor does 
+the order between strings not "less than" the pole.
+
+
+Function header:
+int pivot(string array[], int size, string pole);
+
+
+Example:
+string capitals[8] = {
+			"Montgomery", "Phoenix", "Denver", "Tallahassee",
+			"Honolulu", "Springfield", "Santa Fe", "Columbus"
+		};
+pivot(capitals, 5, "Madison");
+	→ returns 2
+// capitals becomes { "Denver", "Honolulu", "Montgomery", "Tallahassee", 
+//					  "Phoenix", "Springfield", "Santa Fe", "Columbus" }

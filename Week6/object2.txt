@@ -1,0 +1,46 @@
+
+Let us say a Nation has the following attributes;
+	Has a population size
+	Has a current year, which starts at zero for all nations
+	Has a list of number of births for each year
+	Has a list of number of deaths for each year
+
+Each Nation can do the following things:
+	Tell us what its current population is
+	Tell us what the current year is
+	Pass time by a year, during which
+		the population increases by its birth rate for that year
+		and decreases by its death rate for that year.
+		The birth rate triples
+		The death rate doubles
+
+As each nation is independent, only each nation can change its own attributes.
+
+
+
+We will concern ourselves with the following nations:
+	France
+		initial population - 2000
+		initial Birth Rate - 100
+		initial Death Rate - 75
+	USA
+		initial population - 5000
+		initial Birth Rate - 500
+		initial Death Rate - 475
+	Japan
+		initial population - 3000
+		initial Birth Rate - 100
+		initial Death Rate - 200
+	Brazil
+		initial population - 4000
+		initial Birth Rate - 375
+		initial Death Rate - 100
+
+
+
+Complete the declaration and implementation for the class Nation.
+What is the population of each of the four Nations after 5 years?
+
+class Nation
+{
+};
