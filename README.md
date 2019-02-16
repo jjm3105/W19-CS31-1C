@@ -10,6 +10,9 @@ This will be updated every week with new materials for discussion.
 ### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w2.pdf">Week2 Discussion</a>
 ### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w3.pdf">Week3 Discussion</a>
 ### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w4.pdf">Week4 Discussion</a>
+### <a href = "">Week5 No Discussion</a>
+### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w6.pdf">Week6 Discussion</a>
+
 
 
 ## Tips

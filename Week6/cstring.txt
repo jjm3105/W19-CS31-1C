@@ -1,0 +1,15 @@
+
+Write a function that takes in a cstring, and a character c.
+
+When called, the function should erase all instances of the character c from 
+the cstring.
+
+
+Function Header:
+void eraseChar(char str[], char c)
+
+
+Example:
+char cstring[8] = "account";
+eraseChar(cstring, 'c');
+// cstring is now "aount"
