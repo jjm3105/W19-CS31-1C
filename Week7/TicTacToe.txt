@@ -1,4 +1,13 @@
 
+/////////////
+//  Note: I made an error in class.
+//  You should compile in g++ using the command:
+//  g++ main.cpp TicTacToe.cpp -o game
+//  I mistakenly included "TicTacToe.cpp" instead of "TicTacToe.h"
+//  	in the main.cpp file I provided.
+/////////////
+
+
 Write a class TicTacToe that simulates a game of Tic Tac Toe on a 3x3 board.
 
 A board is represented with
@@ -34,3 +43,6 @@ The class should implement the following public members:
 
 	void display()
 		Displays current the board as a ASCII figure
+
+
+A main.cpp file has been provided for your use.
