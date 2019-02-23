@@ -1,0 +1,36 @@
+
+Write a class TicTacToe that simulates a game of Tic Tac Toe on a 3x3 board.
+
+A board is represented with
+	the top left being position (1, 1) 
+	the bottom right being position (3, 3)
+	Empty spots are represented with '.'
+A game always starts with O's turn.
+
+The class should implement the following public members:
+	A default constructor
+		starts a game with an empty board with it being O's turn to play.
+
+	bool placePiece(int r, int c)
+		Places a game piece of the current player (X or O) at position r,c.
+		Returns true
+			if successful
+			the next turn will be the player other than the current player.
+		Returns false
+			if another piece has already been placed in the position
+			if the game has already ended.
+
+	bool isOTurn()
+		Returns true if current turn belongs to O and false otherwise
+
+	char getWinner()
+		Returns 'X' if X has won the current game
+				'O' if O has won the game,
+				'=' if neither has won and no board postion is empty.
+				'?' if the current game has not ended.
+
+	void clear()
+		Clears all game pieces from the board and starts a new game
+
+	void display()
+		Displays current the board as a ASCII figure
