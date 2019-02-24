@@ -1,10 +1,23 @@
 
 /////////////
-//  Note: I made an error in class.
+//  NOTE:
+//	I made an error in class.
 //  You should compile in g++ using the command:
 //  g++ main.cpp TicTacToe.cpp -o game
 //  I mistakenly included "TicTacToe.cpp" instead of "TicTacToe.h"
 //  	in the main.cpp file I provided.
+//	You should write your own TicTacToe.h and TicTacToe.cpp files.
+/////////////
+
+/////////////
+//  SECOND NOTE:
+//  I've provided an executable called "game" that should run on the lnxsrv.
+//	Hopefully you guys can get an idea of how the class is supposed to work.
+//	The "game" executable is the result of running the command
+//		g++ main.cpp TicTacToe.cpp -o game
+//	With main.cpp, TicTacToe.cpp, and TicTacToe.h in your local folder.
+//	You can run the executable with the command
+//		./game
 /////////////
 
 
