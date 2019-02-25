@@ -2,28 +2,19 @@
 /////////////
 //  NOTE:
 //	I made an error in class.
-//	You should compile in g++ using the command:
-//	g++ main.cpp TicTacToe.cpp -o game
 //	I mistakenly included "TicTacToe.cpp" instead of "TicTacToe.h"
 //		in the main.cpp file I provided.
-//	You should write your own TicTacToe.h and TicTacToe.cpp files.
-/////////////
-
-/////////////
-//  SECOND NOTE:
-//	I've provided an executable called "game" that should run on the lnxsrv.
-//	Hopefully you guys can get an idea of how the class is supposed to work.
-//	The "game" executable is the result of running the command
+//	You should compile in g++ using the command:
 //		g++ main.cpp TicTacToe.cpp -o game
-//	With main.cpp, TicTacToe.cpp, and TicTacToe.h in your local folder.
-//	You can run the executable with the command
-//		./game
 /////////////
 
 
 Write a class TicTacToe that simulates a game of Tic Tac Toe on a 3x3 board.
 
-A board is represented with
+A board is represented as:
+		O..
+		.XX
+		...
 	the top left being position (1, 1) 
 	the bottom right being position (3, 3)
 	Empty spots are represented with '.'
@@ -58,4 +49,14 @@ The class should implement the following public members:
 		Displays current the board as a ASCII figure
 
 
+Write your own TicTacToe.h and TicTacToe.cpp files for the class.
 A main.cpp file has been provided for your use.
+
+I've also provided an executable called "game" that should run on lnxsrv.
+Hopefully it will help you get an idea of how the class is supposed to work.
+
+The provided executable is the result of running the command
+	g++ main.cpp TicTacToe.cpp -o game
+	with main.cpp, TicTacToe.cpp, and TicTacToe.h in your local folder.
+You can run the executable with the command
+	./game
