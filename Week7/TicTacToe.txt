@@ -12,16 +12,18 @@
 Write a class TicTacToe that simulates a game of Tic Tac Toe on a 3x3 board.
 
 A board is represented as:
+
 		O..
-		.XX
+		.OX
 		...
+
 	the top left being position (1, 1) 
 	the bottom right being position (3, 3)
 	Empty spots are represented with '.'
 A game always starts with O's turn.
 
 The class should implement the following public members:
-	A default constructor
+	A constructor with no inputs
 		starts a game with an empty board with it being O's turn to play.
 
 	bool placePiece(int r, int c)
@@ -46,7 +48,7 @@ The class should implement the following public members:
 		Clears all game pieces from the board and starts a new game
 
 	void display()
-		Displays current the board as a ASCII figure
+		Displays the current board as a ASCII figure
 
 
 Write your own TicTacToe.h and TicTacToe.cpp files for the class.
