@@ -1,0 +1,64 @@
+
+/////////////
+//  NOTE:
+//	I made an error in class.
+//	I mistakenly included "TicTacToe.cpp" instead of "TicTacToe.h"
+//		in the main.cpp file I provided.
+//	You should compile in g++ using the command:
+//		g++ main.cpp TicTacToe.cpp -o game
+/////////////
+
+
+Write a class TicTacToe that simulates a game of Tic Tac Toe on a 3x3 board.
+
+A board is represented as:
+
+		O..
+		.OX
+		...
+
+	the top left being position (1, 1) 
+	the bottom right being position (3, 3)
+	Empty spots are represented with '.'
+A game always starts with O's turn.
+
+The class should implement the following public members:
+	A constructor with no inputs
+		starts a game with an empty board with it being O's turn to play.
+
+	bool placePiece(int r, int c)
+		Places a game piece of the current player (X or O) at position r,c.
+		Returns true
+			if successful
+			the next turn will be the player other than the current player.
+		Returns false
+			if another piece has already been placed in the position
+			if the game has already ended.
+
+	bool isOTurn()
+		Returns true if current turn belongs to O and false otherwise
+
+	char getWinner()
+		Returns 'X' if X has won the current game
+				'O' if O has won the game,
+				'=' if neither has won and no board postion is empty.
+				'?' if the current game has not ended.
+
+	void clear()
+		Clears all game pieces from the board and starts a new game
+
+	void display()
+		Displays the current board as a ASCII figure
+
+
+Write your own TicTacToe.h and TicTacToe.cpp files for the class.
+A main.cpp file has been provided for your use.
+
+I've also provided an executable called "game" that should run on lnxsrv.
+Hopefully it will help you get an idea of how the class is supposed to work.
+
+The provided executable is the result of running the command
+	g++ main.cpp TicTacToe.cpp -o game
+	with main.cpp, TicTacToe.cpp, and TicTacToe.h in your local folder.
+You can run the executable with the command
+	./game
