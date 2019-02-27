@@ -16,6 +16,7 @@ This will be updated every week with new materials for discussion.
 
 
 
+
 ## Tips
 
 For Windows machines, to always display extensions such as .docx and .cpp, follow these steps:
