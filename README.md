@@ -13,6 +13,9 @@ This will be updated every week with new materials for discussion.
 ### <a href = "https://github.com/jjm3105/W19-CS31-1C">Week5 No Discussion</a>
 ### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w6.pdf">Week6 Discussion</a>
 ### <a href = "https://www.dropbox.com/s/qjf7tk1rp56mo4k/winter19_cs31_w7.pdf?dl=0">Week7 Discussion</a>
+### <a href = "https://www.dropbox.com/s/2u85itlgexp37hr/winter19_cs31_w8.pdf?dl=0">Week8 Discussion</a>
+
+
 
 
 
