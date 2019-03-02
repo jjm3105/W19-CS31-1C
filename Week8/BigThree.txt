@@ -1,0 +1,105 @@
+
+Big-Three is an expansion of the traditional Tic-Tac-Toe game, using nine
+Tic-Tac-Toe boards in a 3x3 grid.
+
+The game's rules are as follows:
+	The game starts with O playing on the board at the middle of the grid
+	After O chooses a spot, it "sends" the opponent to its relative location
+		For example, if O starts with (1, 1),
+			X has to play on the top left board of the 3x3 grid
+		if X then plays (2, 1),
+			then O has to play on the middle left board of the 3x3 grid.
+	If a player wins an individual board, then that board is marked as a 
+		victory for that player on the global grid
+	The game is won, when a player wins three boards in the grid in a row,
+		whether horizontally, vertically, or diagonally.
+
+	If a player is "sent" to a board that is already won,
+		then the player is not "sent", and instead stays in the current board.
+	If the current board is marked as a victory and the player is "sent" to
+		that board, then the player will be sent to the first available board,
+		counting left to right, then top to bottom.
+
+
+
+Write a class BigThree that simulates a game of Big-Three.
+The class should use an array of pointers to keep track of each individual
+	TicTacToe board.
+
+		O..|X.. .X. 
+		OO.|.O. ... 
+		..X|... ... 
+		¯¯¯        
+		/¯\ \ / ... 
+		| |  X  ... 
+		\_/ / \ ... 
+
+		X.. ... ... 
+		XO. ... O.. 
+		... ... ... 
+
+The class should implement the following public members:
+	A constructor with no inputs
+		Starts a game with a 3x3 grid of empty TicTacToe boards
+		with it being O's turn to play.
+
+	A destructor
+
+	bool placePiece(int r, int c)
+		Places a game piece of the current player (X or O) at position (r,c),
+			on the appropriate board
+		Returns true
+			if successful
+			and sends the opponent to the appropriate board
+		Returns false
+			if another piece has already been placed in the position
+			if the game has already ended.
+
+	bool isOTurn()
+		Returns true if current turn belongs to O and false otherwise
+
+	char getWinner()
+		Returns 'X' if X has won the current game
+				'O' if O has won the game,
+				'=' if neither has won and game is over.
+				'?' if the current game has not ended.
+
+	void clear()
+		Clears all game pieces for all 9 boards
+
+	void display()
+		Displays the current 3x3 grid as a ASCII figure
+		If an individual board is marked as a victory or draw,
+			It should be shown as the appropriate large O, X, or =;
+		The "current board" being played should be somehow signified
+
+The class is required to have the following private members:
+	TicTacToe* boards[BIG_MAX_SIZE]
+		A single dimensional array of pointers to TicTacToe boards,
+		Each representing a board on the 3x3 grid in
+			left to right, top to bottom order.
+
+	int boardPos
+		An integer signifying the "current board" that is being played
+
+You can add as many private members as you wish. However, you are not allowed
+	to add any new public members.
+
+
+
+For your use, I have provided the following:
+	A complete main.cpp file
+	Complete source files for the TicTacToe class, fully implemented
+	Source files for the BigThree class, with display() implemented
+
+You are not allowed to change the TicTacToe class any further.
+	Since it is slightly modified from last week's implementation,
+	I would recommend studying the header file at the very least.
+
+
+
+I have also provided an executable called "Game" that should run on lnxsrv.
+Hopefully it will give you an idea of how the class is supposed to work.
+
+The provided executable is the result of running the command
+	g++ main.cpp BigThree.cpp TicTacToe.cpp -o game

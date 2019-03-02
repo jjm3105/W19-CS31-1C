@@ -1,0 +1,43 @@
+
+Say we have the following class Room:
+
+	class Room {
+	public:
+		Room(string s) {
+			name = s;
+		}
+		void DecidePrice(int input) {
+			price = input;
+		}
+		int GetPrice() {
+			return price;
+		}
+		string GetName() {
+			return name;
+		}
+	private:
+		int price;
+		string name;
+	};
+
+We want to create a class House that has the following declaration:
+
+	class House {
+	public:
+		House();
+		void SetPrice(int room, int price);
+		void ListPrice();
+	private:
+		// ?????
+	};
+
+Each house has three rooms. The first room will be named "Living Room", the second "Bedroom", and the third "Bathroom".
+The function SetPrice will set price of each room to a given price.
+The function ListPrice() will print to screen the price of each room.
+	e.g.
+		The Living Room has price 1000
+		The Bedroom has price 2000
+		The Bathroom has price 3000
+
+Finish the declaration and implement the class House.
+You are not allowed to change the class Room.

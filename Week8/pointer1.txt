@@ -1,0 +1,10 @@
+
+Write a function that:
+	Takes as input,
+		two sorted arrays of integers of size N,
+		another array of integers of size 2N,
+		and an integer N representing the size of the first two arrays
+	Set the third array equal to a sorted combination of the first two arrays
+
+Function header:
+void MergeAndSort(int* array_one, int* array_two, int N, int* merged)
