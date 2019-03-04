@@ -1,0 +1,29 @@
+
+Hi guys,
+
+
+I realized that I said some wrong things in discussion this week.
+During the last 10 minutes of class, I wrote:
+
+
+int arr[2][2] = { {1, 2}, {10, 20} };
+int* ptr = arr;
+
+
+The above code DOESN'T ACTUALLY WORK. It should actually be:
+
+
+int arr[2][2] = { {1, 2}, {10, 20} };
+int* ptr = &arr[0][0]
+
+
+There is no valid conversion between ptr and arr, a two dimensional array. 
+Instead, we should have ptr point to the first element in arr. From there, we 
+can use what we talked about in class.
+
+I apologize for the confusion. If you have any questions, about this or any
+other topic, please email me at jmyong@g.ucla.edu
+
+
+Your LA,
+Jonathan Myong
