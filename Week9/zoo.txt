@@ -1,0 +1,68 @@
+
+One day, the ghost of Steve Irwing motivates you to build a zoo. Struck by this 
+sudden desire, but lacking in the monetary means to do so, you decide to settle 
+for the next best thing: building a digital zoo.
+
+In trying to build a digital zoo, you discover that you'll also need to make
+digital animals, along with digital toys for those animals to play with.
+Fortunately, you receive the code for implementing both in a dream.
+
+You thus are given two classes, Toy and Animal, that represents toys and animals
+respectively. Those classes have the following properties:
+
+class Toy
+	Each toy has the following properties:
+		A bool that represents if it's being played with or not
+		A string that represents the name of the animal playing with that toy
+	Each toy can do the following things:
+		Be played with
+			If it is being played with already, the toy cannot be played with
+		Finish being played with
+			Can now be played with by other animals
+			Only the animal that was playing with it can finish
+		Tell you if it's being played with
+		Tell you who is playing with that toy
+
+class Animal
+	Each Animal has the following properties:
+		Has a name
+		Is a Carnivore or a Herbivore
+		Has a favorite toy
+	Each Animal can do the following things:
+		Play
+			Play with their favorite toy, if possible
+		Stop Play
+			Stop playing with their toy
+		Is Playing
+			Lets you know if the animal is playing with their toy
+		Tell you what their name is
+		Tell you whether they're a herbivore or not
+
+
+
+It is thus your job to write class Zoo to represent a zoo.
+
+class Zoo
+	Each Zoo has the following properties:
+		A enclosure of Herbivores
+		A enclosure of Carnivores
+		A maximum capacity for both enclosures
+	Each Zoo can do the following things:
+		Add an animal
+			Given its name, its herbivore status, and its favorite toy,
+				Adds an animal to its appropriate enclosure
+		Have a specific animal play
+		Spend a day
+			Has all its animals try to play
+		Sleep
+			Has all its animals stop playing
+		Status
+			Prints the status of all the animals
+
+
+NOTICE: two separate animals can have the same favorite toys!
+
+These requirements are intentionally vague. It is up to you to decide the best
+implementation for the class Zoo that can fulfill all the requirements.
+
+Using the skeleton provided, finish the implementation of the Class Zoo.
