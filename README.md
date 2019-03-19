@@ -6,8 +6,8 @@ This will be updated every week with new materials for discussion.
 
 ## Discussion Sessions
 
-### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w1.pdf">Week1 Discussion</a>
-### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w2.pdf">Week2 Discussion</a>
+### <a href = "https://www.dropbox.com/s/t1qbmflli0kzdy9/winter19_cs31_w1.pdf?dl=0">Week1 Discussion</a>
+### <a href = "https://www.dropbox.com/s/bvvj7irq89qf8qi/winter19_cs31_w2.pdf?dl=0">Week2 Discussion</a>
 ### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w3.pdf">Week3 Discussion</a>
 ### <a href = "http://web.cs.ucla.edu/~aimran/winter19_cs31_w4.pdf">Week4 Discussion</a>
 ### <a href = "https://github.com/jjm3105/W19-CS31-1C">Week5 No Discussion</a>
